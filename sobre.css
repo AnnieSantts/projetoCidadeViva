@@ -1,0 +1,30 @@
+.centralizar-img{
+    display: flex;
+}
+
+.topicos{
+    font-weight: bold;
+    color:#ffafcc ;
+}
+
+.txt-visao{
+    display: flex;
+    background-color: #ffd60a;
+    border-radius: 1%;
+}
+
+.titulo-missao{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.svg-icon{
+   color: #ffd60a;
+}
+
+.svg-star{
+    color: #ffd60a;
+    width: 7%;
+}

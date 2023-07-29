@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="Pt-br" data-bs-theme="auto">
+
+<head>
+  <script src="../assets/js/color-modes.js"></script>
+<script src="./index.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.112.5">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <title>Cidade Viva</title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+  <link rel="stylesheet" href="index.css">
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="carousel.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-config">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <image class="logotipo" src="./assets/logotipo.svg" alt="Logo do Site">
+      </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="sobre.html">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="inscricao.html">Inscreva-se</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="apoie.html">Apoie</a>
+            </li>
+           
+          </ul>
+         
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-theme="light">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <image class="bd-placeholder-img" width="100%" height="100%" src="./assets/grafitebanner2.webp"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          </image>
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Sua doação faz toda a diferença.</h1>
+              <p class="opacity-75">Saiba como apoiar o Cidade Viva e ajudar a transformar a vida de jovens talentosos.</p>
+              <p><a class="btn btn-lg btn-primary" href="./apoie.html" style="background-color:#ff70a6 ; border: none">Saiba mais</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <image class="bd-placeholder-img" width="100%" height="100%" src="./assets/banner23.jpeg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          </image>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Participe de nossas oficinas.</h1>
+              <p>Inscreva-se para aprender mais sobre a arte do graffiti.</p>
+              <p><a class="btn btn-lg btn-primary" href="./inscricao.html" style="background-color:#ff70a6 ; border: none">Inscrever-se</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <image class="bd-placeholder-img" width="100%" height="100%" src="./assets/banner26.jpeg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          </image>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container marketing">
+      <div class="row">
+        <div class="col-lg-4">
+          <image class="bd-placeholder-img rounded-circle" width="140" height="140" src="./assets/graffiti-4.svg"
+            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          </image>
+          <h2 class="fw-normal">Apoie</h2>
+          <p>Torne-se uma empresa parceira e colabore com nosso projeto através de doações ou contratando nossos
+            grafiteiros.</p>
+          <p><a class="btn bt-vejamais" href="./apoie.html">Veja mais &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <image class="bd-placeholder-img rounded-circle" width="140" height="140" src="./assets/graffite2.svg"
+            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          </image>
+          <h2 class="fw-normal">Participe</h2>
+          <p>Aprenda a criar murais expressivos e transformadores, que contam histórias e celebram a cultura da nossa
+            cidade.</p>
+          <p><a class="btn bt-vejamais" href="./inscricao.html">Veja mais &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <image class="bd-placeholder-img rounded-circle" width="140" height="140" src="./assets/graffiti3.svg"
+            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          </image>
+          <h2 class="fw-normal">Projeto</h2>
+          <p>Conheça mais sobre a missão visão e valores do projeto Cidade Viva e acompanhe as novidades e eventos.</p>
+          <p><a class="btn bt-vejamais" href="./sobre.html">Veja mais &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+
+      <hr class="featurette-divider">
+
+
+      <div class="posicionamento">
+
+        <h2 class="featurette-heading fw-normal lh-1">Bem-vindo ao Cidade Viva</h2><br>
+        <p class="lead">Nossa missão é muito mais do que apenas pintar muros; é pintar novos horizontes, inspirar e
+          capacitar jovens talentosos que anseiam por uma oportunidade de mudança. Acreditamos no potencial
+          transformador da arte, proporcionando aos jovens uma formação em grafite, que vai além das técnicas e se
+          estende à construção de autoconfiança, autoexpressão e empatia. Porque, através das ruas, também se contam
+          histórias, e a nossa cidade carrega narrativas ancestrais, tradições e cultura, todas merecendo serem
+          celebradas em cores vibrantes.</p>
+        <!--<image class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="800" height="600" src="./assets/mural1.webp" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></image> -->
+      </div>
+      <br>
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2"><br>
+          <h2 class=" fw-normal lh-1">Junte-se ao <span class="text-body-secondary">Cidade Viva!</span></h2>
+          <p class="lead">Grafiteiros e jovens talentosos, vocês são os protagonistas da transformação que queremos
+            pintar nas ruas da cidade! Convidamos vocês a embarcar em uma jornada de arte, empoderamento e mudança
+            cultural ao lado projeto Cidade Viva.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <image class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+          width="600" height="600" src="./assets/meinaGraffitando.jpeg" role="img"
+          aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="200px" height="100px" fill="var(--bs-secondary-bg)" />
+      </image>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="maps">
+        
+          <h2 class="lh-1">Venha nos visitar <span
+              class="text-body-secondary"></span></h2>
+          <p class="lead">Conheça de perto nosso projeto. Estamos localizados na Av. Brigadeiro Faria Lima nº 1000</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.029502304178!2d-46.696242924030095!3d-23.567383878795724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57a0c0c7286d%3A0x73af663b55bd763!2sAv.%20Brig.%20Faria%20Lima%2C%201000%20-%20Pinheiros%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005426-200!5e0!3m2!1spt-BR!2sbr!4v1690328099489!5m2!1spt-BR!2sbr" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+      </div>
+      <hr class="featurette-divider">
+    </div><!-- /.container -->
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-end"><a href="#">Início</a></p>
+      <div class="rodape"> 
+        <image class="imagem-rodape" src="./assets/logotipo.svg"></image>
+      <p>&copy; 2023 Cidade Viva, Ong <a href="#"></a> <svg class="svg-star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg><a href="#"> </a></p>
+    </div>
+    </footer>
+  </main>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

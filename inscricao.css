@@ -1,0 +1,161 @@
+body {
+    background-image: url(./assets/banner14.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    min-height: 100vh;
+}
+
+body::before {
+    content: "";
+    background-color: rgba(189, 175, 190, 0.5);
+    /* Ocupar todo o espaço do elemento pai */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* Ajuste a ordem para que o pseudo-elemento fique atrás do conteúdo */
+    z-index: -1;
+}
+
+.svg-icon{
+    color: #ffafcc;
+}
+.titulo-inscricao {
+    margin-top: 10%;
+    display: flex;
+
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    color: #f9f8f8;
+}
+
+.texto-formulario{
+    color: #f8f4f4;
+}
+
+
+form {
+    border-radius: 1rem;
+    background-color: #e8d9d976;
+    padding: 3%;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.texto-form {
+    color: aliceblue;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    border-radius: 0.3rem;
+}
+
+
+.icon-form {
+    color: #ef0de0;
+}
+
+#enviarBtn {
+
+    border-radius: 0.3rem;
+    padding: 10px;
+    background-color: #ffc8dd;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    /* Definir largura completa */
+
+}
+
+#enviarBtn:hover {
+    background-color: #ffafcc;
+}
+
+.conteudo-centralizado {
+    margin: 2% auto;
+    padding: 0;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 1%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.texto-rodape {
+    color: white;
+    padding-right: 5%;
+}
+
+.imagemAgradecimento {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 0.5rem;
+}
+
+
+.container-formulario{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 7%;
+}
+
+#mensagemSucesso {
+    display: none;
+    background-color: #ffafcc7e;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+/* Estilos para telas menores (telefones) */
+@media (max-width: 767px) {
+    .conteudo-centralizado {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagemAgradecimento {
+        display: none;
+    }
+
+    form {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .navbar-config {
+        position: static;
+    }
+
+    .formulario {
+        padding-bottom: 80px;
+        margin-top: 20px;
+    }
+
+    .footer {
+        display: none;
+        /* Removemos o footer em telas menores (telefones) */
+    }
+}
